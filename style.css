@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+}
+
+body{
+    background-color: black;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+h1{
+    font-size: 50px;
+    color: gold;
+    margin-bottom: 30px;
+}
+
+.play-btn{
+    border: none;
+    background-color: blue;
+    padding: 20px 150px;
+   color: white;
+   font-size: 30px;
+   border-radius: 5px;
+   cursor: pointer;
+   margin-bottom: 20px;
+}
+
+.highscores-btn{
+    border: none;
+    background-color: blue;
+    padding: 20px 150px;
+   color: white;
+   font-size: 30px;
+   border-radius: 5px;
+   cursor: pointer;
+}
